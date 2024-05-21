@@ -4,5 +4,48 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    position: relative; 
+}
+
+section{
     position: relative;
+}
+
+body{
+    color: #70747f;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    background-color: #fff;
+}
+
+#navigationBar .container{
+    display: flex;
+}   
+.menuItems{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+a{
+    color: #12265a;
+    font-weight: 900;
+    text-decoration: none;
+
+}
+
+.menuItems a{
+    padding: 0 10px;
+    margin:0 12px;
+    color: #12265a;
+    font-weight: 900;
+}
+
+.menu-logo .navbar-band{
+    display: flex;
+    
 }
