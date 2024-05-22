@@ -28,7 +28,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: auto;
+    height: auto;   
 }
 
 a{
@@ -47,5 +47,45 @@ a{
 
 .menu-logo .navbar-band{
     display: flex;
-    
+    padding-top: 5px;
+    padding-bottom: 5px;
+}   
+
+
+.menu-logo img{
+    height: 100px;  
+}
+
+
+.navbar-logo{
+    margin-right: 15px;
+}
+
+
+.section-title{
+    font-weight: 900;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.1;
+    color: #12265a;
+    margin-bottom: 0;
+}
+
+.section-subtitle{
+    color: #fa9db7;
+    line-height: 1.3;
+}
+
+
+#navigationBar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-logo .navbar-band{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
 }
