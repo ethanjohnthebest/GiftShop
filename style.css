@@ -89,3 +89,36 @@ a{
     padding-bottom: 5px;
     align-items: center;
 }
+
+/* about us */
+#aboutUs{
+    padding-top: 45px;
+    padding-bottom: 75px;
+}
+
+#aboutUs img{
+    border-radius: 30px;
+    height: 350px;
+}
+
+#aboutUs .content{
+    margin: auto;
+}
+
+#aboutUs .col-2{
+    float: left;
+    width: 45%;
+    margin: 5px;
+    padding: 10px;
+}
+
+#aboutUs .section-title{
+    font-weight: 500;
+
+}
+
+#aboutUs .section-text{
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+}
