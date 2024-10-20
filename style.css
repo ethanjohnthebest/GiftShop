@@ -22,6 +22,8 @@ body{
 
 #navigationBar .container{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }   
 .menuItems{
     list-style: none;
@@ -49,6 +51,7 @@ a{
     display: flex;
     padding-top: 5px;
     padding-bottom: 5px;
+    align-items: center;
 }   
 
 
@@ -91,6 +94,30 @@ a{
 }
 
 /* about us */
+.row{
+    display: flex;
+    justify-content: space-around ;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col-2{
+    flex-basis: 15%;
+}
+
+.display-1{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.display-2{
+    line-height: 2;
+    font-size: 23px;
+    font-weight: 400;
+}
+
 #aboutUs{
     padding-top: 45px;
     padding-bottom: 75px;
@@ -140,4 +167,23 @@ a{
 #aboutUs .button{
     padding: 10px 20px;
     border-radius: 20px;
+}
+/* productsType */
+#productsType {
+    background-color: #ffdd98;
+    padding: 20px;
+}
+
+.col-3 {
+    display: flex;
+    flex-direction:column ;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+#productsType .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
