@@ -244,3 +244,13 @@ a{
 #productsType .box-icon{
     border-radius: 50%;
 }
+
+/* fetured products */
+
+#featuredProducts{
+    background-color:#ffffff;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
