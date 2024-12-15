@@ -299,3 +299,20 @@ a{
     font-style: normal;
     line-height: 1.1;
 }
+
+#newArrivals p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#ffffff ;
+}
+
+#newArrivals .box {
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    color: #ffffff;
+}
+
+#newArrivals h4 {
+    font-size: 25px;
+}
